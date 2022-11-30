@@ -1,0 +1,8 @@
+name: SimpleYAML
+on: [push]
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: echo a string
+      run: echo "FIRST"
